@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<EntityComponents>
+
+		<EntityComponent xsi:type="MyObjectBuilder_EntityStatComponentDefinition">
+			<Id>
+				<TypeId>CharacterStatComponent</TypeId>
+				<SubtypeId>Hauling_Astronaut</SubtypeId>
+			</Id>
+			<Stats>
+				<Stat>
+					<TypeId>MyObjectBuilder_EntityStat</TypeId>
+					<SubtypeId>SpaceCharacterHealth</SubtypeId>
+				</Stat>
+			</Stats>
+			<Scripts>
+				<Script>SpaceStatEffect</Script>
+			</Scripts>
+		</EntityComponent>
+		<EntityComponent xsi:type="MyObjectBuilder_EntityStatComponentDefinition">
+			<Id>
+				<TypeId>CharacterStatComponent</TypeId>
+				<SubtypeId>HeavyHauling_Astronaut</SubtypeId>
+			</Id>
+			<Stats>
+				<Stat>
+					<TypeId>MyObjectBuilder_EntityStat</TypeId>
+					<SubtypeId>SpaceCharacterHealth</SubtypeId>
+				</Stat>
+			</Stats>
+			<Scripts>
+				<Script>SpaceStatEffect</Script>
+			</Scripts>
+		</EntityComponent>
+
+		<EntityComponent xsi:type="MyObjectBuilder_EntityStatComponentDefinition">
+			<Id>
+				<TypeId>CharacterStatComponent</TypeId>
+				<SubtypeId>Armored_Astronaut</SubtypeId>
+			</Id>
+			<Stats>
+				<Stat>
+					<TypeId>MyObjectBuilder_EntityStat</TypeId>
+					<SubtypeId>SpaceCharacterHealthArmored</SubtypeId>
+				</Stat>
+			</Stats>
+			<Scripts>
+				<Script>SpaceStatEffect</Script>
+			</Scripts>
+		</EntityComponent>
+		<EntityComponent xsi:type="MyObjectBuilder_EntityStatComponentDefinition">
+			<Id>
+				<TypeId>CharacterStatComponent</TypeId>
+				<SubtypeId>HeavilyArmored_Astronaut</SubtypeId>
+			</Id>
+			<Stats>
+				<Stat>
+					<TypeId>MyObjectBuilder_EntityStat</TypeId>
+					<SubtypeId>SpaceCharacterHealthHeavilyArmored</SubtypeId>
+				</Stat>
+			</Stats>
+			<Scripts>
+				<Script>SpaceStatEffect</Script>
+			</Scripts>
+		</EntityComponent>
+
+	</EntityComponents>
+</Definitions>
